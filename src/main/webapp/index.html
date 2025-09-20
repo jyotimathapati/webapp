@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti M</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Jyoti M</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="profile-container">
+            <button class="nav-arrow left">&lt;</button>
+            <div class="profile-image-container">
+                <img src="C:\Users\jyoti\OneDrive\Desktop\maven1\project\src\main\webapp\WEB-INF\joo.jpg" alt="A Shyam" class="profile-image">
+            </div>
+            <div class="profile-text-content">
+                <p>Hello, Myself</p>
+                <h1>Jyoti M</h1>
+                <p>And I'm</p>
+                <p>As a Java Full Stack Developer, I build and maintain dynamic applications, from back-end logic to a seamless user interface. I'm passionate about the full software development lifecycle and am currently upskilling in the DevOps domain to enhance my skills in automation and continuous integration.</p>
+                <div class="social-icons">
+                    <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="icon"><i class="fa-brands fa-github"></i></div>
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                </div>
+                <button class="download-btn">Download CV</button>
+            </div>
+            <button class="nav-arrow right">&gt;</button>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,137 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .header {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .header .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 20px;
+            gap: 50px;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            max-width: 900px;
+            width: 100%;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-image-container {
+            position: relative;
+        }
+
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid rgba(0, 0, 0, 0.715);
+            object-fit: cover;
+        }
+
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .nav-arrow.left {
+            left: -60px;
+        }
+
+        .nav-arrow.right {
+            right: -60px;
+        }
+
+        .profile-text-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .profile-text-content h1 {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .profile-text-content p {
+            line-height: 1.6;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons .icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .download-btn {
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 20px;
+            align-self: flex-start;
+        }
+   
